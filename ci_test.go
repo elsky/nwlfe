@@ -6,7 +6,7 @@ func TestCI(t *testing.T) {
 	a := 2
 	b := 3
 	c := a + b
-	if c != 4 {
+	if c != 5 {
 		panic("wrong c result")
 	}
 }
