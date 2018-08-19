@@ -26,7 +26,7 @@ func TestCISecond(t *testing.T) {
 
 func TestCalculations(t *testing.T) {
    var result int64 = 23*3219 + 4342 + 32*32 + (1+4)*5 + 2*3 + ((3 * 3) + 4*4)
-   if result != 79000 {
+   if result != 79459 {
       panic(fmt.Sprintf("we receive wrong result: %d", result))
    }
 }
