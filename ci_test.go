@@ -19,7 +19,7 @@ func TestCISecond(t *testing.T) {
    a := 2
    b := 3
    c := a * b
-   if c != 6 {
+   if c != 7 {
       panic("wrong c result")
    }
 }
